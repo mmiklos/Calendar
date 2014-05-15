@@ -1,0 +1,345 @@
+
+
+div#wrapper{
+	font-family: "Times New Roman", Times, serif;
+	background:#001617;
+	width:1027px;
+	min-height: 500px;
+	margin:auto;
+	padding:0 1%;
+	color:white;
+}
+div#wrapper h4, div#wrapper p{
+	padding:0;
+	margin:0;
+}
+#title h1 a,
+div.genre{
+	color:#fff;
+	text-decoration:none;
+	size:1.8em;
+}
+#title h1 a:hover{
+	text-decoration:underline;
+}
+h1{
+	-webkit-border-image:-webkit-gradient(linear, left top, right top, from(#58eaef), to(#001617), color-stop(0.5, #c40000)) 0 0 100% 0;
+	margin:0 0 1em;
+}
+form fieldset{
+	border:0;
+}
+form fieldset#fieldset1{
+	border:none;
+	border-bottom:2px solid turquoise;
+}
+form a.advanced{
+	color:violet;
+	text-decoration:none;
+}
+form a.advanced:hover{
+	color:purple;
+	text-decoration: underline;
+}
+div.game{
+	float:left;
+	margin:0 0.3em 4em 0.3em;
+	width:132px;
+	max-width:132px;
+	color:#fff;
+	text-align:center;
+	max-height:160px;
+}
+div.first{
+	position:relative;
+}
+div.game p{
+	padding:0;
+	margin:0;
+	/*word-wrap:break-word;*/
+	overflow:hidden;
+}
+div.game img{
+	margin:auto;
+}
+article#game-list form{
+	margin:0;
+	padding:0;
+}
+article#game-list input[type="submit"]{
+	margin:auto;
+}
+footer#base{
+	text-align:center;
+}
+div.genre{
+	float:left;
+}
+/*form div.odd{
+	background:#002224;
+}*/
+/*******************/
+/***CALENDAR PAGE***/
+/*******************/
+body{
+	background:#fff;
+	margin:0;
+}
+div#body{
+	width:60%;
+	margin:0 0 0 0.5%;
+	display:inline-block;
+}
+div#body nav#navigatie{
+	float:right;
+}
+.switch, .today{
+	float:right;
+}
+nav#navigate span{
+	float:right;
+}
+nav#navigate a{
+	text-decoration: none;
+	color:teal;
+}
+#wrap{
+	width:100%;
+	margin:auto;
+}
+#wrap h1{
+	margin-bottom: 0.2em;
+}
+#wrap a{
+	text-decoration: none;
+	color:black;
+}
+#wrap a:hover{
+	color:#a4a4a4;
+}
+#wrap section{
+	height:auto;
+}
+#wrap div#monthdays{
+	width:100%;
+	float:right;
+}
+aside#week_sidebar{
+	padding-top:20px;
+	width:55px;
+	float:left;
+}
+div.weekday{
+	float:left;
+	background-color:#c4c4c4;
+	border:1px solid #fff;
+	height:87px;
+	width:13%;
+}
+div.weekday:hover{
+	border:1px solid black;
+	cursor:pointer;
+}
+div.not_in_month{
+	background:#8A8A8A;
+}
+div.not_in_month:hover{
+	border:1px solid #fff;
+	cursor:auto;
+}
+div.not_in_month p{
+	visibility:hidden;
+}
+div.weekday_names{
+	background:none;
+	float:left;
+	height:20px;
+	width:13.155%;
+	text-align: center;
+}
+div.week{
+	height:auto;
+	float:left;
+	width:100%;
+}
+#wrap p{
+	margin:0;
+	padding:0;
+}
+.week_0{
+	visibility:hidden;
+}
+#week_sidebar div{
+	background:none;
+}
+div.start_of_week:hover{
+	cursor:auto;
+}
+div.start_of_week:hover,
+section div.weekday_names p:hover{
+	border:0;
+	font-weight: bold;
+	cursor:pointer;
+	box-shadow:0 0 10px 1px #c4c4c4 inset;
+}
+#week_sidebar div p{
+	position:relative;
+	top:35%;
+	height:1.2em;
+	text-align: center;
+}
+section.no_current{
+	display:none;
+}
+h2{
+	padding:0;
+	margin:0;
+}
+div#monthdays div.today{
+	box-shadow: 0 0 10px 1px rgb(252, 252, 188) inset;
+}
+div#body form{
+	display:none;
+}
+div#body div#pop-up form{
+	display:block;
+}
+div#weekday_names div#null{
+	visibility:hidden;
+}
+div#monthdays div.start_of_week{
+	background:none;
+	border-left:0;
+	border-right:0;
+}
+div.start_of_week{
+	max-width: 70px;
+	width:5%;
+}
+
+/**********************/
+/*MENU MAIN NAVIGATION*/
+/**********************/
+nav#main-nav{
+	position:relative;
+	top:0;
+	left:0;
+	width:100%;
+	height:20px;
+	border-bottom:1px solid black;
+}
+nav#main-nav > ul > li{
+	float:left;
+	padding: 0 2px 0 2px;
+	margin: 0 3px 0 3px;
+	height:20px;
+	text-align:center;
+	width:100%;
+}
+nav#main-nav > ul{
+	padding:0;
+	margin:0;
+}
+nav#main-nav > ul > li > a{
+	float:none;
+	text-align:center;
+	text-decoration: none;
+	color:black;
+}
+nav#main-nav > ul > li:hover{
+	background: #FFFAC2;
+}	
+div#pop-up{
+	position:relative;
+	top:0;
+	left:0;
+	width:100%;
+	height:auto;
+	border-bottom:1px solid black;
+}
+/*********************/
+/*****EVENTS PANE*****/
+/*********************/
+div#events-pane{
+	width:35%;
+	float:right;
+	padding:0;
+	margin:0 2% 0 2%;
+	position:relative;
+}
+h4._o{
+	background-color:#FFDADA;
+}
+h4._e{
+	background-color:#DAFFFC;
+}
+div#listed-events{
+	width:100%;
+}
+div#listed-events h4{
+	padding:10px;
+	margin:0;
+}
+div.details p{
+	margin:0;
+	padding:0 10px 0 10px;
+}
+p.tab{
+	text-indent:40px;
+}
+span.h-time{
+	float:right;
+}
+div.details p.odd{
+	background-color:#DFDFDF;
+}
+div.details p.even{
+	background-color:#F0F0F0;
+}
+/********************************************/
+/******************FORM**********************/
+/********************************************/
+div#pop-up form {
+	padding: 10px 0 10px 0;
+}
+div#pop-up form input#etype,
+div#pop-up form input#time-year,
+div#pop-up form select#meridiem,
+div#pop-up form input#owner
+{
+	margin:0 2% 0 0;
+}
+
+div#pop-up form p{
+	border-bottom:3px solid black;
+}
+div#pop-up form#user-favorite{
+	padding:10px;
+}
+div#pop-up form#user-favorite label{
+	margin-right:5px;
+}
+div#pop-up form#user-favorite .checkbox{
+	display:inline-block;
+	padding:2px;
+	margin: 0 4px 4px 0px ;
+	box-shadow: 0px 0px 2px 1px #B8B8B8 inset
+}
+/********************************************/
+/*****************FOOTER*********************/
+/********************************************/
+footer#footnote{
+	margin: 10px 0 0 0;
+	text-align: center;
+	padding: 30px;
+
+}
+footer#footnote li{
+	text-decoration: none;
+	list-style: none;
+	display:inline-block;
+	padding:5px;
+}
+footer#footnote ul{
+	margin:0;
+}

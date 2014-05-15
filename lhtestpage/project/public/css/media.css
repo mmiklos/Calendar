@@ -1,0 +1,11 @@
+@media screen and (min-aspect-ratio: 1/1){}
+
+@media screen and (max-device-height: 799px){}
+
+@media screen and (max-device-width: 799px){}
+
+@media all and (orientation: portrait) {}
+
+@media all and (orientation: landscape) {}
+
+@media handheld and (min-width: 20em), screen and (min-width: 20em) {}

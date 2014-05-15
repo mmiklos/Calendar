@@ -1,0 +1,23 @@
+Hello: 
+type=>A really long named event which will cause overflow problems
+owner=>B&G.co
+name=>Tournament
+norl=>National
+month=>06
+day=>4
+year=>2014
+month-end=>06
+day-end=>06
+year-end=>2014
+hour=>12
+minute=>30
+time=>
+url=>http://www.google.com
+country=>USA
+street=>2887 NE Waterworks Place
+city=>Monopoly
+zipcode=>10101
+price=>$30/Person
+add=>This description is a little thing which wont display and possibly wont even upload to the json file yet. Its input currently isnt protected and I am not even displaying how many characters are left before I hit the 1000 character mark for the text area. Among other things this box is more or less completely pointless
+activities=>none
+submit=>Submit

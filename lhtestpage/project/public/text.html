@@ -1,0 +1,31 @@
+<head>
+	<meta charset="utf-8">
+	<title> Test </title>
+</head>
+<body>
+	<script>
+
+function getFirstDay (month,year) {
+ 
+var dateObj =  new Date(year, month, 1);
+dateObj.setFullYear(year);
+dateObj.setMonth(month);
+dateObj.setDate(1);
+var first_day = dateObj.getDay();
+}
+
+getFirstDay(3, 2014);
+ function daysInMonth(month,year) {
+    return new Date(year, month+1, 0).getDate();
+}
+var days = daysInMonth(1, 2014);
+var day = ['-3','1','2','3','33'];
+var num_weeks = Math.ceil((Math.max.apply(Math, day) - Math.min.apply(Math, day)) / 7);
+//alert(num_weeks);
+var date = new Date();
+alert(date.getFullYear());
+alert(date.getMonth());
+//alert(days);
+	</script>
+</body>
+</html>
