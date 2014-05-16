@@ -40,7 +40,6 @@ CREATE TABLE calendar (
 	timezone VARCHAR(10) NOT NULL,
 	url VARCHAR(100),
 	address VARCHAR(200),
-	//price VARCHAR(200),
 	activity_list VARCHAR(500),
 	optional_text VARCHAR(1000)
 );
