@@ -3,7 +3,7 @@ use game;
 
 GRANT ALL PRIVILEGES ON game.* 
 TO 'gamer'@'localhost' 
-IDENTIFIED BY 'randompassword';
+IDENTIFIED BY 'kc11076919';
 
 CREATE TABLE users( 
 	id INT(11) NOT NULL AUTO_INCREMENT,
